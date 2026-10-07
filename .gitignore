@@ -1,12 +1,22 @@
-**/__pycache__/
+# Python
+__pycache__/
 *.pyc
-Backend/ai_detector_model/
-Backend/venv
-*.txt
-Backend/install_dependencies.sh
-Backend/Documentation/
-frontend/Documentation/
-frontend/dist
-frontend/node_modules/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vercel/
+
+# Local config and data
+.env
 *.env
-api.caller.js
+!.env.example
+*.db
+.DS_Store
+.gstack/
+
+# Old local-only folders from the 2025 version
+*/Documentation/
